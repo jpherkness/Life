@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C16BDA71D30853200526364 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7C16BDA61D30853200526364 /* ResourcePath.mm */; };
 		7C16BDAA1D30853200526364 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C16BDA91D30853200526364 /* main.cpp */; };
-		7C16BDAD1D30853200526364 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C16BDAC1D30853200526364 /* cute_image.jpg */; };
-		7C16BDAF1D30853200526364 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 7C16BDAE1D30853200526364 /* nice_music.ogg */; };
-		7C16BDB11D30853200526364 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C16BDB01D30853200526364 /* sansation.ttf */; };
-		7C16BDB31D30853200526364 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16BDB21D30853200526364 /* icon.png */; };
+		7C16BDBB1D30859A00526364 /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C16BDB91D30859A00526364 /* Grid.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +18,8 @@
 		7C16BDA61D30853200526364 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		7C16BDA81D30853200526364 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		7C16BDA91D30853200526364 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7C16BDAC1D30853200526364 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		7C16BDAE1D30853200526364 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		7C16BDB01D30853200526364 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		7C16BDB21D30853200526364 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7C16BDB91D30859A00526364 /* Grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grid.cpp; sourceTree = "<group>"; };
+		7C16BDBA1D30859A00526364 /* Grid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Grid.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +52,13 @@
 		7C16BDA31D30853200526364 /* Life */ = {
 			isa = PBXGroup;
 			children = (
-				7C16BDA61D30853200526364 /* ResourcePath.mm */,
-				7C16BDA81D30853200526364 /* ResourcePath.hpp */,
+				7C16BDBA1D30859A00526364 /* Grid.hpp */,
+				7C16BDB91D30859A00526364 /* Grid.cpp */,
 				7C16BDA91D30853200526364 /* main.cpp */,
 				7C16BDAB1D30853200526364 /* Resources */,
 				7C16BDA41D30853200526364 /* Supporting Files */,
+				7C16BDA61D30853200526364 /* ResourcePath.mm */,
+				7C16BDA81D30853200526364 /* ResourcePath.hpp */,
 			);
 			path = Life;
 			sourceTree = "<group>";
@@ -77,10 +74,6 @@
 		7C16BDAB1D30853200526364 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C16BDAC1D30853200526364 /* cute_image.jpg */,
-				7C16BDAE1D30853200526364 /* nice_music.ogg */,
-				7C16BDB01D30853200526364 /* sansation.ttf */,
-				7C16BDB21D30853200526364 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,10 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C16BDB31D30853200526364 /* icon.png in Resources */,
-				7C16BDB11D30853200526364 /* sansation.ttf in Resources */,
-				7C16BDAF1D30853200526364 /* nice_music.ogg in Resources */,
-				7C16BDAD1D30853200526364 /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C16BDBB1D30859A00526364 /* Grid.cpp in Sources */,
 				7C16BDAA1D30853200526364 /* main.cpp in Sources */,
 				7C16BDA71D30853200526364 /* ResourcePath.mm in Sources */,
 			);
